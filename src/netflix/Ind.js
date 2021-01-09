@@ -8,9 +8,9 @@ import "./css/style.css";
 const Ind = () => {
   return (
     <Switch>
-      <Route exact path="/" component={App} />
-      <Route exact path="/Watch/:id" component={Watch} />
-      <Route exact path="/Search/:string" component={Search} />
+      <Route exact path="netflix/" component={App} />
+      <Route exact path="netflix/Watch/:id" component={Watch} />
+      <Route exact path="netflix/Search/:string" component={Search} />
     </Switch>
   );
 };
